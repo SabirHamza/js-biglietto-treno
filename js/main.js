@@ -14,14 +14,14 @@ console.log(price);
 if (age < 18){
     let discountedrprice = (price * 80) / 100
     console.log(discountedrprice);
-    document.getElementById('price').innerHTML = discountedrprice
+    document.getElementById('price').innerHTML = discountedrprice.toFixed(2)
 }else if (age > 65){
     let discountedrprice = (price * 60) / 100
     console.log(discountedrprice);
-    document.getElementById('price').innerHTML = discountedrprice
+    document.getElementById('price').innerHTML = discountedrprice.toFixed(2)
 }else{
     let discountedrprice = price
     console.log(discountedrprice);
-    document.getElementById('price').innerHTML = discountedrprice
+    document.getElementById('price').innerHTML = discountedrprice.toFixed(2)
 }
 
